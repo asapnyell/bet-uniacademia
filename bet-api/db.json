@@ -1,0 +1,47 @@
+{
+  "usuarios": [
+    {
+      "id": "1",
+      "nome": "Professor Admin",
+      "email": "admin@email.com",
+      "perfil": "administrador"
+    },
+    {
+      "id": "2",
+      "nome": "Danyel Jogador",
+      "email": "jogador1@email.com",
+      "perfil": "jogador",
+      "saldo": 500.00
+    },
+    {
+      "id": "3",
+      "nome": "Gabriel Jogador",
+      "email": "jogador2@email.com",
+      "perfil": "jogador",
+      "saldo": 500.00
+    }
+  ],
+  "eventos": [
+    {
+      "id": "evt-1",
+      "esporte": "Futebol",
+      "timeCasa": "Flamengo",
+      "timeVisitante": "Palmeiras",
+      "data": "2026-06-20T16:00:00Z",
+      "status": "aberto",
+      "resultado": null,
+      "cotacoes": { "casa": 1.90, "empate": 3.40, "visitante": 4.00 }
+    }
+  ],
+  "apostas": [],
+  "movimentacoes": [
+    {
+      "id": "mov-1",
+      "usuarioId": "2",
+      "tipo": "entrada",
+      "descricao": "Bônus Fictício de Boas-Vindas",
+      "valor": 500.00,
+      "data": "2026-06-16T10:00:00Z"
+    }
+  ]
+}
